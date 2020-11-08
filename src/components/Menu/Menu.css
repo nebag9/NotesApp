@@ -1,0 +1,25 @@
+.menu-bar {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+.menu-item > a{
+    border: 1px solid #e0e0e0 !important;
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+}
+.menu-item > a:focus {
+    box-shadow: 0 0 0 0.2rem rgba(216,217,219,.0);
+}
+.menu-item :hover {
+    cursor: pointer;
+}
+
+.menu-item-link {
+    text-decoration: none;
+}

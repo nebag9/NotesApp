@@ -1,0 +1,79 @@
+#todoInput {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    padding-bottom: 12px;
+}
+
+.check {
+    margin-left: 5px;
+    padding: 1px 4px !important;
+}
+
+.text {
+    padding-left: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.delete {
+    float: right;
+}
+
+.btn-delete {
+    padding: 0 4px 4px !important;
+}
+
+button {
+    border: 0 !important;
+}
+
+input {
+    height: 50px !important;
+}
+
+.line {
+    text-decoration: line-through;
+    color: #767676;
+}
+
+.btnGray {
+    background-color: rgba(125, 125, 125, 0.63) !important;
+}
+
+.btnGreen {
+    background-color: #28a745 !important;
+}
+
+.btnGray:focus {
+     box-shadow: 0 0 0 0.2rem rgba(146, 146, 146, 0.5) !important;
+}
+
+.btnGreen:focus {
+    box-shadow: 0 0 0 0.2rem rgba(72,180,97,.5) !important;
+}
+.sortTodoList{
+    background-color: rgba(255, 255, 255, 0) !important;
+    text-decoration: none !important;
+    color: #616161 !important;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.sortTodoList:focus{
+    box-shadow: rgba(255, 0, 0, 0.81) !important;
+}
+#all{
+     font-weight: bold !important
+}

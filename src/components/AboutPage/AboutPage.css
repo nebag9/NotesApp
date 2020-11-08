@@ -1,0 +1,11 @@
+.container{
+    padding-top: 50px;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: box-shadow .3s;
+}
+img:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.20), 0 12px 12px rgba(0, 0, 0, 0.23);
+}
